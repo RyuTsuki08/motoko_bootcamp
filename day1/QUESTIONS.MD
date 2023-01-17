@@ -12,7 +12,8 @@ Question daily one:
 2) What is the issue with the following code sample?
 
     
-   ` actor {
+   ```
+   actor {
    
        let counter : Nat = 0;
 
@@ -22,7 +23,8 @@ Question daily one:
 
       };
       
-    }`
+    }
+    ```
     
 
 Answer: The issue with this functions is that the type is `()` so must returns `()`, but really must of Type Nat, cause' is a counter
@@ -30,7 +32,8 @@ Answer: The issue with this functions is that the type is `()` so must returns `
 3) What is the issue with the following code sample?
 
 
-`actor {
+```
+actor {
   var message : Text = 0;
 
   public query func change_message(new_message : Text) : async () {
@@ -40,7 +43,8 @@ Answer: The issue with this functions is that the type is `()` so must returns `
   public query func see_message() : async Text {
     return(message);
   };
-}`
+}
+```
 
 
 Answer: In the first function you are not returning anything, the type exists, but something of the same type must be written after return.
