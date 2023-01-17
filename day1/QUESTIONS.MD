@@ -11,7 +11,7 @@ Question daily one:
 
 2) What is the issue with the following code sample?
 
-    ` 
+    
     actor {
         let counter : Nat = 0;
 
@@ -21,13 +21,13 @@ Question daily one:
 
         };
     }
-    `
+    
 
 Answer: The issue with this functions is that the type is `()` so must returns `()`, but really must of Type Nat, cause' is a counter
 
 3) What is the issue with the following code sample?
 
-`
+
 actor {
   var message : Text = 0;
 
@@ -40,7 +40,7 @@ actor {
     return(message);
   };
 }
-`
+
 
 Answer: In the first function you are not returning anything, the type exists, but something of the same type must be written after return.
 In the second function you are calling a return() method and a message variable, which does not exist.
