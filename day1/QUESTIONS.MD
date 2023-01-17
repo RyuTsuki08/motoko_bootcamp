@@ -11,7 +11,8 @@ Question daily one:
 
 2) What is the issue with the following code sample?
 
-    `actor {
+    ` 
+    actor {
 
         let counter : Nat = 0;
 
@@ -21,7 +22,8 @@ Question daily one:
 
         };
 
-    }`
+    }
+    `
 
 Answer: The issue with this functions is that the type is `()` so must returns `()`, but really must of Type Nat, cause' is a counter
 
