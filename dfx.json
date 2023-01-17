@@ -1,8 +1,0 @@
-{
-"canisters": {
-  "motoko_bootcamp":{
-    "main": "./day1/main.mo",
-    "type": "motoko"
-  }
-}
-}
