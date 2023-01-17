@@ -13,7 +13,6 @@ Question daily one:
 
     ` 
     actor {
-
         let counter : Nat = 0;
 
         public func increment_counter() : async () {
@@ -21,7 +20,6 @@ Question daily one:
         counter := counter + 1;
 
         };
-
     }
     `
 
