@@ -1,0 +1,3 @@
+service : {
+  square_root: (nat, nat) -> (float64);
+}
